@@ -1,0 +1,43 @@
+.title_first{
+    text-align: center;
+    font-family:cursive;
+    padding-bottom: 80px;
+}
+.form_1{
+    padding: 70px 50px ;
+   
+    
+}
+label{
+   
+    padding-bottom: 40px;
+}
+.col-md-3 label{
+    text-align: left;
+}
+body{
+   
+ 
+     background-repeat: no-repeat;
+ color:#333333;
+    font-family: cursive;
+  
+}
+#grup{
+    border: 2px solid #e6e6e6 ;
+    border-radius: 8px;
+}
+#sub{
+    padding-top: 20px;
+}
+.b_graund{
+    background-color: 
+}
+.content{
+     margin-left:  22%;
+    margin-right:  22%;
+   
+}
+.day{
+    width: 60pximportant;
+}

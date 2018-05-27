@@ -1,0 +1,210 @@
+.head_up h1{
+    padding-left: 2%;
+    color: #fff;
+        font-size: 342.85714%;
+    line-height: 0.875;
+    margin: 0 0 0.4375em 0;
+    padding-top: 20px;
+        font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+       
+}
+.head_up{
+    margin: 0  6%;
+    
+  background-color:   #444;
+        color: #ccc;
+}
+.content{
+    padding-left: 8%;
+    padding-right: 8%;
+    float: none;
+     display: flex;
+}
+.head_down{
+    
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    line-height: 1em;
+    background: #222;
+}
+.head_down ul{ 
+    display: inline;
+    float: left;}
+
+.head_down ul li{
+    display: inline;
+    float: left;
+    font-size: 1.0em;
+    line-height: 1;
+    list-style-type: none;
+margin: 0 .25em 0 0;
+    padding: 0;}
+
+.head_down ul li:hover{
+ background: transparent;
+         background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.head_down ul li a{
+        background: transparent;
+    color: #aaa;
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 0.5em;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: auto;
+    
+}
+strong, b {
+    font-weight: bold;
+}
+ .head_down ul li strong {
+    background: transparent;
+         background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+   
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: auto;
+}
+ .head_down  ul {
+    margin: 0;
+    padding: 0.5em 1.5em;
+    display: inline;
+    float: left;
+}
+   .search{float: right;
+    display: inline;
+    line-height: 2;
+       padding: 0.5em 1.5em;}
+.info_left{
+    float:left;
+    background-color: #f4f4f4;
+    margin: 30px 0px;
+    padding: 0 30px 0 30px;
+   
+}
+.ym-next:before {
+    content: "\279C";
+}
+.ym-button:hover{
+    
+    background: linear-gradient("to bottom", #eeeeee, #cccccc); 
+    background: #e3e3e3;
+    
+}
+.ym-button{
+display: inline-block;
+    white-space: nowrap;
+    background: linear-gradient("to bottom", #eeeeee, #cccccc);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC');
+    zoom: 1;
+    border: 1px solid #777;
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #333 !important;
+    cursor: pointer;
+    font: normal 1em/2em Arial, Helvetica;
+    margin: 0 0.75em 0.75em 0;
+    padding: 0 1.5em;
+    overflow: visible;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);}
+.ym-button:before {
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+
+.content_right{
+     float: left;
+        width:35%;
+    
+    
+    
+}
+
+.photo{
+    width: 100%;
+    margin-right: 20px;
+}
+.photo img{
+    border: 2px  #fff outset ; 
+    
+    
+    
+
+}
+.info_left_2{
+    float: left;
+    width: 45%;
+     margin-right: 30px
+    
+}
+.content_left{
+    float: left;
+     width: 60%;
+     margin-right: 40px
+}
+.footer{
+    
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 78%;
+  height: 40px;
+margin-left: 6%;
+    margin-right: 8%;
+    background: #eee;
+    color: #444;
+   
+
+        padding: 9px 4px 9px 24px;
+}
+    .footer p{color: #444;
+font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;}
+
+.footer a:hover{
+    background-color: cadetblue;
+}
+p {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+}
+h3 {
+    /* font-size: 24px; */
+    font-size: 171.42857%;
+    line-height: 0.875;
+    margin: 0 0 0.875em 0;
+    color: #161e21;}
+h4 {
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #161e21;
+    margin: 0;
+        font-size: 150%;
+    line-height: 1;
+    margin: 0 0 1em 0;
+}
+ul#widget{
+    margin-left: -14px;
+}

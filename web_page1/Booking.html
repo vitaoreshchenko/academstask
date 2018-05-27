@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel reservation form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" media="screen" href="s.css">
+    </head>
+<body>
+   <div class=" row content">
+   <div>
+   
+   
+<form class="form_1" OnSubmit='return Validate(this);'> 
+    <h3 class="title_first">Hotel reservation form </h3>
+     
+    
+     
+ <div class="col-md-12 b_graund" >
+     
+     <div class="row">
+      <div class="col-md-3" >
+         <label for="f_name" class="lab" >First name</label></div>
+                 
+                 <div class="col-md-9"> <input id="f_name" type="text" name="f_name" ></div> 
+        </div>
+        
+        
+        <div class="row">
+        <div class="col-md-3" >
+          <label for="l_name" class="lab">Last name</label></div>
+                 <div class="col-md-9">  <input  id="l_name" type="text" name="l_name" >  </div> 
+        </div>
+        
+        
+       <div class="row">
+        <div class="col-md-3" >
+         <label for="key" class="lab">Secret Key</label></div>
+                 
+                 <div class="col-md-9">     <input id="key"   type="password" name="key" >    </div> 
+        </div>
+         
+                                 
+                                                                                 
+       <div class="row">
+       <div class="col-md-3" >
+         <label for="sex" class="lab">Sex</label></div>
+                 
+           <div class="col-md-2">     <input type="radio" name="sex" >Male  </div>
+           <div class="col-md-2">     <input type="radio" name="sex" >Female </div>
+           <div class="col-md-5" ></div>
+        </div>  
+        
+        
+        
+        <div class="row">
+           
+       <div class="col-md-3" >
+         <label for="date" class="lab">Born date</label></div>
+             <div class="col-md-2 day"  > <input id="day" type="number" name="day" placeholder="Day"  min="1" max="31"></div>     
+           <div class="col-md-2">    <select name="mon" id="mon">
+          <option value="january">January</option>
+          <option value="february" >February</option>
+          <option value="marc">March</option>
+          <option value="april">April</option>
+           <option value="may">May</option>
+          <option value="june" >June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+           <option value="september">September</option>
+          <option value="october" >October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+            </select></div>
+      
+       <div class="col-md-2" id="myDiv">   </div>
+       <div class="col-md-3"></div>
+       
+         </div>
+        
+    <div class="row">
+  <div class="col-md-3" >
+         <label for="sex" class="lab">Castom service</label></div>
+                 
+           <div class="col-md-3">   
+              <div class="row">
+              <div class="col-md-12"> <input type="checkbox" name="breakfast" >Breakfast </div> 
+                  <div class="col-md-12"> <input type="checkbox" name="transfer" >Skii transfer </div>
+                  <div class="col-md-12"> <input type="checkbox" name="fridge" >Fridge  </div>
+                  <div class="col-md-12"> <input type="checkbox" name="pass" >Skii pass </div></div>
+           </div>
+        
+        </div>      
+        
+        <div class="row">
+  <div class="col-md-3" >
+         <label for=selection class="lab">Availeble rooms</label></div>
+                 
+           <div class="col-md-3">    <select name="sel" value="Select">
+           <option value="select">Selection</option>
+  <option value="112">112</option>
+  <option value="122">122</option>
+  <option value="123">123</option>
+  <option value="114">114</option>
+</select></div>
+           
+ <div class="col-md-3" >
+         <label for="sex" class="lab">Availeble count</label></div>
+         <div class="col-md-3">    <select name="sel" value="Select">
+         <option value="volvo">Selection</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select></div>
+       <div class=""></div>
+        </div>  
+  
+        
+    <div class="row">
+  <div class="col-md-3" >
+         <label for="date" class="lab">Reservation dates </label></div>
+                 
+           <div class="col-md-3">     <input type="date" name="calendar1"  id="calendar1"  >  &nbsp;  &nbsp; </div>
+           <div class="col-md-3">     <input type="date" name="calendar2" id="calendar2"></div>
+           <div class="col-md-3">    </div>
+           
+        </div>  
+<div class="row">
+       
+       
+        <div   class="col-md-3" >
+         <label for="about" class="lab">How you heared about us</label>
+        </div>
+           
+        <div id="grup" class="col-md-4">
+            <div class="row">
+              
+             <div class="col-md-2">     
+                 <input type="radio" name="avdert" > </div> <div class="col-md-10">  Avdert<br></div>
+            </div>
+                 <div class="row">
+                  <div class="col-md-2">  
+                      <input type="radio" name="friend" ></div> <div class="col-md-10">  Friend suggested </div>
+            </div>
+                      <div class="row">
+                       <div class="col-md-2">  
+                           <input type="radio" name="other" > </div> <div class="col-md-10">    Other  </div>
+              </div>
+         </div>
+             
+             
+</div>
+    
+     </div>
+              <div class="row">
+         <div   class="col-md-3" >
+         </div>
+            <div class="col-md-4"> </div> 
+            <div  class="col-md-2" id="sub">   
+                 <input  type="submit" value="Submit rezervation" onclick=Validate_date() > 
+            </div>
+             
+             
+            
+             
+              
+     </div>
+            
+                 
+    </form>
+    </div>
+    </div>
+    
+</body>
+ <script src="jj.js"></script>
+  <script src="sc.js"></script>
+</html>
